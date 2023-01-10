@@ -37,7 +37,7 @@ with open(pollData, newline="", encoding="utf-8") as csvfile:
   # The winner of the election based on popular vote.
     winner = votes.index(max(votes))    
 
-# In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
   # Print the results to terminal
     print("Election Results")
     print("----------------------------")
